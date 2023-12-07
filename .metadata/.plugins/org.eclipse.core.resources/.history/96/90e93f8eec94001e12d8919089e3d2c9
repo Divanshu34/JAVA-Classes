@@ -1,0 +1,15 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class DWeekDays {
+
+	public static void main(String[] args) {
+//		String str = "abcd";
+		Scanner sc = new Scanner(System.in);
+		
+		String weekDay = 
+
+	}
+
+}

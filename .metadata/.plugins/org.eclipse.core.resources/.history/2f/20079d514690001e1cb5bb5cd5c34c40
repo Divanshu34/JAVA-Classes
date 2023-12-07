@@ -1,0 +1,59 @@
+package com.sunbeam.a_variables;
+
+//This is a single line comment
+/*This 
+ * is 
+ * a
+ * multiple line
+ * comment
+ */
+public class PrimitiveDataTypes {
+
+	public static void main(String[] args) {
+		// 1. This is the entry point of any class in JAVA
+		int x = 10;
+		long myLong = 416782657;
+		char myChar = 'a';
+		float f = 10.5f;
+		System.out.println(f);
+		boolean myBoolean = true;
+		double myDouble = 10.76;
+
+		// 2. Arrays -> multiple variables of same type
+		int[] arrayOfIntegers = new int[5];
+		//5*4 = 20
+		//[0,0,0,0,0]
+		//0,1,2,3,4
+//		System.out.println('ac');
+		System.out.println("Default values of all the indexes of integer array");
+		System.out.println(x+arrayOfIntegers[0]);//10+0 = 10 //value + value = evaluate => string
+		System.out.println("value of array at index 0 = "+arrayOfIntegers[0]);//string + value = string
+		System.out.println("value of array at index 1 = "+arrayOfIntegers[1]);
+		System.out.println("value of array at index 2 = "+arrayOfIntegers[2]);
+		System.out.println("value of array at index 3 = "+arrayOfIntegers[3]);
+		System.out.println("value of array at index 4 = "+arrayOfIntegers[4]);
+		
+		arrayOfIntegers[0] = 9;
+		arrayOfIntegers[1] = 5;
+		System.out.println("After changing the value of indexes 0 and 1");
+		System.out.println(arrayOfIntegers[0]); //9
+		System.out.println(arrayOfIntegers[1]); //5
+		System.out.println(arrayOfIntegers[2]); //0
+		System.out.println(arrayOfIntegers[3]); //0
+		System.out.println(arrayOfIntegers[4]); //0
+		
+//		int[] arrayOfIntegers = new int[5];
+		char[] s = new char[7];
+		s[0] = 'D'; //1
+		s[1] = 'i'; //2
+		s[2] = 'v'; //3
+		s[3] = 'a'; //4
+		s[4] = 'n'; //5
+		s[5] = 's'; //6
+		s[6] = 'h'; //7
+		s[7] = 'u'; //8
+		
+		for(char i : s) System.out.print(i);
+		
+	}
+}

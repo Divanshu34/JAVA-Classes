@@ -1,0 +1,10 @@
+package com.sunbeam.a_conditionals;
+
+public class AIfElse {
+
+	public static void main(String[] args) {
+		int ageOfCandidate;
+
+	}
+
+}

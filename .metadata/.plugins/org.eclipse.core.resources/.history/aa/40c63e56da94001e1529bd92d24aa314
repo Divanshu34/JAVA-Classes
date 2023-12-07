@@ -1,0 +1,13 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class AIfElse {
+
+	public static void main(String[] args) {
+		int ageOfCandidate;
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class AIfElse {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the age of candidate");
+		int ageOfCandidate = sc.nextInt();
+		System.out.println("Age of candidate is = "+ageOfCandidate);
+		ageOfCandidate
+		System.out.println();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class DWeekDays {
+
+	public static void main(String[] args) {
+//		String str = "abcd";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the week");
+		int weekNo = sc.nextInt();
+		
+		if(weekNo == 0) 
+			System.out.println("Monday");
+		 else if(weekNo == 1) {
+			System.out.println("Tuesday");
+		} else if(weekNo == 2) System.out.println("Wednesday");
+		else if(weekNo == 3) {
+			System.out.println("Thursday");
+		} else if(weekNo == 4) System.out.println("Friday");
+		else if(weekNo == 5) System.out.println("Saturday");
+		else if(weekNo == 6) System.out.println("Sunday");
+		else {
+			System.out.println("Enter the correct week no lawde bsdk!!!");
+		}
+
+	}
+
+}

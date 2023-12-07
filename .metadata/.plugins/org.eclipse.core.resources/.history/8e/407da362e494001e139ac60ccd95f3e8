@@ -1,0 +1,12 @@
+package com.sunbeam.a_conditionals;
+
+public class BLeapYear {
+
+	public static void main(String[] args) {
+		//1. take input from user of year
+		//2. int year;
+		//3. year % 
+
+	}
+
+}

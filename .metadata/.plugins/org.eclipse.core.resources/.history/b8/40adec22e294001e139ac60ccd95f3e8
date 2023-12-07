@@ -1,0 +1,28 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class AIfElse {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the age of candidate");
+		int ageOfCandidate = sc.nextInt(); //18
+		System.out.println("Age of candidate is = "+ageOfCandidate); //18
+		
+//		ageOfCandidate++;
+//		
+//		System.out.println("New age after one year is = "+ageOfCandidate); //19
+		//20
+		if(ageOfCandidate < 18) {
+			//if true then execute this block
+			System.out.println("You're not eligible to vote");
+		} else if(ageOfCandidate >= 25 && ageOfCandidate <= 100) {
+			System.out.println("You can vote as well as stand for election");
+		} else {
+			System.out.println("You can only vote");
+		}
+
+	}
+
+}

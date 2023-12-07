@@ -1,0 +1,27 @@
+package com.sunbeam.a_variables;
+
+
+//This is a single line comment
+/*This 
+ * is 
+ * a
+ * multiple line
+ * comment
+ */
+public class PrimitiveDataTypes {
+
+	public static void main(String[] args) {
+		//1. This is the entry point of any class in JAVA
+		int x = 10;
+//		System.out.println(x);
+		long l = 416782657;
+		char c = 'a';
+		float f = 10.5f;
+		boolean b = true;
+		double d = 10.76;
+		
+		//2. Arrays -> multiple variables of same type
+		int [] arrayOfIntegers = new int[5];
+	}
+
+}

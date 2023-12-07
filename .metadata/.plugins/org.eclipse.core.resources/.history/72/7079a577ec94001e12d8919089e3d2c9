@@ -1,0 +1,10 @@
+package com.sunbeam.a_conditionals;
+
+public class DWeakDays {
+
+	public static void main(String[] args) {
+		String str = "abcd";
+
+	}
+
+}

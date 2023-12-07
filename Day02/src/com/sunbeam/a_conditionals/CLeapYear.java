@@ -1,0 +1,27 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class CLeapYear {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the year you want to check");
+		int year = sc.nextInt();
+		
+		if(year % 4 == 0) {
+			//2000, 2004, 1700, 1600, 1704 etc...
+			if(year % 400 == 0) {
+				System.out.println("Leap year as well as century year");
+			} else if(year % 100 == 0) {
+				System.out.println("not a leap year");
+			} else {
+				System.out.println("leap year");
+			}
+		} else {
+			System.out.println("not a leap year");
+		}
+
+	}
+
+}

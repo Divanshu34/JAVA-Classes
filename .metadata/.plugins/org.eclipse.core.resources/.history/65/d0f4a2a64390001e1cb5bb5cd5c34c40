@@ -1,0 +1,44 @@
+package com.sunbeam.a_variables;
+
+//This is a single line comment
+/*This 
+ * is 
+ * a
+ * multiple line
+ * comment
+ */
+public class PrimitiveDataTypes {
+
+	public static void main(String[] args) {
+		// 1. This is the entry point of any class in JAVA
+		int x = 10;
+		long l = 416782657;
+		char c = 'a';
+		float f = 10.5f;
+		System.out.println(f);
+		boolean b = true;
+		double d = 10.76;
+
+		// 2. Arrays -> multiple variables of same type
+		int[] arrayOfIntegers = new int[5];
+		//5*4 = 20
+		//[0,0,0,0,0]
+		//0,1,2,3,4
+//		System.out.println('ac');
+		System.out.println("Default values of all the indexes of integer array");
+		System.out.println("value of array at index 0 = "+arrayOfIntegers[0]);
+		System.out.println(arrayOfIntegers[1]);
+		System.out.println(arrayOfIntegers[2]);
+		System.out.println(arrayOfIntegers[3]);
+		System.out.println(arrayOfIntegers[4]);
+		
+		arrayOfIntegers[0] = 9;
+		arrayOfIntegers[1] = 5;
+		System.out.println("After changing the value of indexes 0 and 1");
+		System.out.println(arrayOfIntegers[0]); //9
+		System.out.println(arrayOfIntegers[1]); //5
+		System.out.println(arrayOfIntegers[2]); //0
+		System.out.println(arrayOfIntegers[3]); //0
+		System.out.println(arrayOfIntegers[4]); //0
+	}
+}

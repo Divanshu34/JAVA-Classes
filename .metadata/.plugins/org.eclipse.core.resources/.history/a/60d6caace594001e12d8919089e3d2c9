@@ -1,0 +1,24 @@
+package com.sunbeam.a_conditionals;
+
+import java.util.Scanner;
+
+public class BLeapYear {
+
+	public static void main(String[] args) {
+		//3. year % 4 == 0 
+		//4. if century year % 400 == 0
+		
+		//1. take input from user of year
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the year you want to check");
+		
+		//2. int year;
+		int year = s.nextInt();
+		
+		
+		
+		
+
+	}
+
+}

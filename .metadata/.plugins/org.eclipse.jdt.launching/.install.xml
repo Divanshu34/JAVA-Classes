@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="/home/divanshu-ubuntu/Downloads/sts-4.20.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre" stamp="1694192880512"/>
+    <entry loc="/home/divanshu-ubuntu/Downloads/sts-4.20.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047" stamp="1694192880514"/>
+    <entry loc="/usr/lib/jvm/jdk-11" stamp="1696316248368"/>
     <entry loc="C:\Program Files\Java\jdk-11" stamp="1701431612897"/>
     <entry loc="C:\Users\aweso\Downloads\spring-tool-suite-4-4.20.1.RELEASE-e4.29.0-win32.win32.x86_64.self-extracting\contents\sts-4.20.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre" stamp="1698304460000"/>
     <entry loc="C:\Users\aweso\Downloads\spring-tool-suite-4-4.20.1.RELEASE-e4.29.0-win32.win32.x86_64.self-extracting\contents\sts-4.20.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047" stamp="1698304460000"/>
